@@ -1,0 +1,441 @@
+Log created : Sun Feb 22 03:47:14 2026
+
+----------------------------------------------------------------------
+User Arguments
+----------------------------------------------------------------------
+
+Json file output: gmax3412.json
+Calibration images directory: ./
+No configuration file input... using default options
+No log file path input... using default: ctt_log.txt
+
+----------------------------------------------------------------------
+Image Loading
+----------------------------------------------------------------------
+
+Directory: ./
+Files found: 16
+
+Image: 10000K_866l.dng
+Identified as macbeth chart image
+Locating macbeth chart
+Macbeth chart located successfully
+Macbeth chart vertices:
+[[1260. 1218.]
+ [1206. 2308.]
+ [3000. 2302.]
+ [2928. 1198.]]
+Confidence: 0.841
+Colour temperature: 10000 K
+Lux value: 866 lx
+
+Image: 10000K_866l.jpg
+Identified as macbeth chart image
+WARNING: No Broadcom header found!
+Image discarded!
+
+Image: 10300K_775l.dng
+Identified as macbeth chart image
+Locating macbeth chart
+Macbeth chart located successfully
+Macbeth chart vertices:
+[[1258. 1216.]
+ [1204. 2308.]
+ [3000. 2300.]
+ [2928. 1200.]]
+Confidence: 0.842
+Colour temperature: 10300 K
+Lux value: 775 lx
+
+Image: 10300K_775l.jpg
+Identified as macbeth chart image
+WARNING: No Broadcom header found!
+Image discarded!
+
+Image: 11100K_627l.dng
+Identified as macbeth chart image
+Locating macbeth chart
+Macbeth chart located successfully
+Macbeth chart vertices:
+[[1246. 1208.]
+ [1224. 2298.]
+ [2988. 2294.]
+ [2932. 1198.]]
+Confidence: 0.835
+Colour temperature: 11100 K
+Lux value: 627 lx
+
+Image: 11100K_627l.jpg
+Identified as macbeth chart image
+WARNING: No Broadcom header found!
+Image discarded!
+
+Image: 2800K_569l.dng
+Identified as macbeth chart image
+Locating macbeth chart
+Macbeth chart located successfully
+Macbeth chart vertices:
+[[ 894. 1076.]
+ [ 802. 2632.]
+ [3270. 2644.]
+ [3190. 1116.]]
+Confidence: 0.786
+Colour temperature: 2800 K
+Lux value: 569 lx
+
+Image: 2800K_569l.jpg
+Identified as macbeth chart image
+WARNING: No Broadcom header found!
+Image discarded!
+
+Image: 5500K_55300l.dng
+Identified as macbeth chart image
+Locating macbeth chart
+Macbeth chart located successfully
+Macbeth chart vertices:
+[[ 892.  662.]
+ [ 906. 1982.]
+ [2936. 1972.]
+ [2916.  626.]]
+Confidence: 0.749WARNING: Low confidence guess!
+Colour temperature: 5500 K
+Lux value: 55300 lx
+
+Image: 5500K_55300l.jpg
+Identified as macbeth chart image
+WARNING: No Broadcom header found!
+Image discarded!
+
+Image: 5500K_55301l.dng
+Identified as macbeth chart image
+Locating macbeth chart
+Macbeth chart located successfully
+Macbeth chart vertices:
+[[1140.  914.]
+ [1128. 2126.]
+ [2998. 2150.]
+ [2988.  926.]]
+Confidence: 0.836
+Colour temperature: 5500 K
+Lux value: 55301 lx
+
+Image: 5500K_55301l.jpg
+Identified as macbeth chart image
+WARNING: No Broadcom header found!
+Image discarded!
+
+Image: 8800K_1040l.dng
+Identified as macbeth chart image
+Locating macbeth chart
+Macbeth chart located successfully
+Macbeth chart vertices:
+[[1248. 1212.]
+ [1218. 2304.]
+ [2988. 2292.]
+ [2930. 1198.]]
+Confidence: 0.840
+Colour temperature: 8800 K
+Lux value: 1040 lx
+
+Image: 8800K_1040l.jpg
+Identified as macbeth chart image
+WARNING: No Broadcom header found!
+Image discarded!
+
+Image: 9700K_986l.dng
+Identified as macbeth chart image
+Locating macbeth chart
+Macbeth chart located successfully
+Macbeth chart vertices:
+[[1260. 1218.]
+ [1208. 2308.]
+ [2998. 2298.]
+ [2928. 1198.]]
+Confidence: 0.840
+Colour temperature: 9700 K
+Lux value: 986 lx
+
+Image: 9700K_986l.jpg
+Identified as macbeth chart image
+WARNING: No Broadcom header found!
+Image discarded!
+
+Images found:
+Macbeth : 8
+ALSC : 0 
+CAC: 0 
+
+Camera metadata
+Name: gmax3412
+Bayer pattern case: 1
+Significant bits: 16
+Blacklevel: 800
+Image size: w = 4096 h = 3072
+
+----------------------------------------------------------------------
+Disabling Options
+----------------------------------------------------------------------
+
+Nothing disabled!
+
+----------------------------------------------------------------------
+ALSC Calibration
+----------------------------------------------------------------------
+
+ERROR: No ALSC calibration images found!
+ALSC calibration aborted!
+
+----------------------------------------------------------------------
+GEQ Calibration
+----------------------------------------------------------------------
+
+Processing image 10000K_866l.dng
+
+Processing image 10300K_775l.dng
+
+Processing image 11100K_627l.dng
+
+Processing image 2800K_569l.dng
+
+Processing image 5500K_55300l.dng
+
+Processing image 5500K_55301l.dng
+
+Processing image 8800K_1040l.dng
+
+Processing image 9700K_986l.dng
+
+Processed all images
+Fit result: slope = 0.00398 offset = 20
+Fit after correction factors: slope = 0.00598 offset = 221
+GEQ calibrations written to json file
+
+----------------------------------------------------------------------
+LUX Calibration
+----------------------------------------------------------------------
+
+Lux found closest to 1000: 986 lx
+Image used: 9700K_986l.dng
+Shutter speed = 14995
+Gain = 1.12
+Aperture = 1
+Average channel values on grey patches:
+Red = 7174 Green = 12074 Blue = 15386
+Channel gains: Red = 2.145 Blue = 1.274
+Average channel values over entire image scaled by channel gains:
+Red = 15961 Green = 13833 Blue = 14919
+Y value calculated: 15106
+LUX calibrations written to json file
+
+----------------------------------------------------------------------
+NOISE Calibration
+----------------------------------------------------------------------
+
+Processing image: 10000K_866l.dng
+Black level = 800
+Noise profile: offset = -5 slope = 2.850
+Offset below zero. Fit recalculated with zero offset
+Noise profile: offset = 0 slope = 2.776
+
+Processing image: 10300K_775l.dng
+Black level = 800
+Noise profile: offset = -5 slope = 2.844
+Offset below zero. Fit recalculated with zero offset
+Noise profile: offset = 0 slope = 2.770
+
+Processing image: 11100K_627l.dng
+Black level = 800
+Noise profile: offset = 2 slope = 2.649
+
+Processing image: 2800K_569l.dng
+Black level = 800
+Noise profile: offset = 129 slope = 1.662
+Identified and removed 18 anomalies.
+Recalculating fit
+Noise profile: offset = -22 slope = 3.303
+Offset below zero. Fit recalculated with zero offset
+Noise profile: offset = 0 slope = 2.908
+
+Processing image: 5500K_55300l.dng
+Black level = 800
+Noise profile: offset = 44 slope = 2.866
+Identified and removed 4 anomalies.
+Recalculating fit
+Noise profile: offset = -48 slope = 3.687
+Offset below zero. Fit recalculated with zero offset
+Noise profile: offset = 0 slope = 3.202
+
+Processing image: 5500K_55301l.dng
+Black level = 800
+Noise profile: offset = 0 slope = 2.753
+
+Processing image: 8800K_1040l.dng
+Black level = 800
+Noise profile: offset = -6 slope = 2.843
+Offset below zero. Fit recalculated with zero offset
+Noise profile: offset = 0 slope = 2.754
+
+Processing image: 9700K_986l.dng
+Black level = 800
+Noise profile: offset = -7 slope = 2.852
+Offset below zero. Fit recalculated with zero offset
+Noise profile: offset = 0 slope = 2.750
+
+Finished processing images
+Average noise profile: constant = 0 slope = 2.792
+NOISE calibrations written to json
+
+----------------------------------------------------------------------
+CAC Calibration
+----------------------------------------------------------------------
+
+ERROR: No CAC calibration images found!
+CAC calibration aborted!
+
+----------------------------------------------------------------------
+AWB Calibration
+----------------------------------------------------------------------
+
+WARNING: No ALSC tables found.
+AWB calibration performed without ALSC correction...
+Processing 10000K_866l.dng
+       r : 0.4527       b : 0.7532
+   r_hat : 0.2052   b_hat : 0.3414
+
+Processing 10300K_775l.dng
+       r : 0.4520       b : 0.7540
+   r_hat : 0.2049   b_hat : 0.3418
+
+Processing 11100K_627l.dng
+       r : 0.4333       b : 0.7700
+   r_hat : 0.1966   b_hat : 0.3495
+
+Processing 2800K_569l.dng
+       r : 0.9241       b : 0.4317
+   r_hat : 0.3923   b_hat : 0.1833
+
+Processing 5500K_55300l.dng
+       r : 0.5964       b : 0.5870
+   r_hat : 0.2731   b_hat : 0.2688
+
+Processing 5500K_55301l.dng
+       r : 0.5867       b : 0.5527
+   r_hat : 0.2742   b_hat : 0.2583
+
+Processing 8800K_1040l.dng
+       r : 0.4649       b : 0.7472
+   r_hat : 0.2102   b_hat : 0.3378
+
+Processing 9700K_986l.dng
+       r : 0.4425       b : 0.7655
+   r_hat : 0.2004   b_hat : 0.3467
+
+Finished processing images
+Fit quadratic curve in hatspace
+Found closest point on fit line to each point in dehatspace
+Transverse pos : 0.01590
+Transverse neg : 0.01911
+Colour temperature increase found
+9700 K at r = 0.4431 to 10300 K at r = 0.4516
+Distances from fit:
+10300 K : 0.00151 , 9700 K : 0.00118
+Point at 10300 K deleted as it is furthest from fit
+Final CT curve:
+  ct: 2800.0    r: 0.9238    b: 0.4312  
+  ct: 5500.0    r: 0.5933    b: 0.5701  
+  ct: 5500.0    r: 0.5909    b: 0.5724  
+  ct: 8800.0    r: 0.4617    b: 0.7353  
+  ct: 10000.0    r: 0.4522    b: 0.7514  
+  ct: 9700.0    r: 0.4431    b: 0.7675  
+  ct: 11100.0    r: 0.4358    b: 0.7805  
+AWB calibration written to json file
+
+----------------------------------------------------------------------
+CCM Calibration
+----------------------------------------------------------------------
+
+WARNING: No ALSC tables found.
+CCM calibration performed without ALSC correction...
+Processing image: 10000K_866l.dng
+Gain with respect to standard colours: 1.498
+ 
+ Optimised Matrix Below: 
+ 
+[np.float64(1.9539689326883927), np.float64(-0.6893630033826873), np.float64(-0.26460592930570537), np.float64(-0.3905764618434253), np.float64(1.9387035820979848), np.float64(-0.5481271202545595), np.float64(-0.0023993099962647145), np.float64(-0.7369657152223291), np.float64(1.7393650252185937)]
+ Old Color Correction Matrix Below 
+[np.float64(1.8826090304667047), np.float64(-0.6516856625118844), np.float64(-0.23092336795482027), np.float64(-0.36315145697522816), np.float64(1.8299174769297002), np.float64(-0.4667660199544721), np.float64(0.005923214856607482), np.float64(-0.7713979730372295), np.float64(1.765474758180622)]Here are the ImprovementsBefore color correction matrix was optimised, we got an average delta E of 3.243864283800409 and a maximum delta E of 6.844408997030386After color correction matrix was optimised, we got an average delta E of 2.9898088279869715 and a maximum delta E of 7.882646149373718
+
+Processing image: 10300K_775l.dng
+Gain with respect to standard colours: 1.501
+ 
+ Optimised Matrix Below: 
+ 
+[np.float64(1.9264358513331379), np.float64(-0.6500714029726794), np.float64(-0.2763644483604585), np.float64(-0.40122106370436494), np.float64(1.9529515511539124), np.float64(-0.5517304874495474), np.float64(-0.012085266910810908), np.float64(-0.7204444132962773), np.float64(1.7325296802070882)]
+ Old Color Correction Matrix Below 
+[np.float64(1.8838377438821856), np.float64(-0.6524142922144487), np.float64(-0.23142345166773692), np.float64(-0.3600904945160114), np.float64(1.8236241390156969), np.float64(-0.4635336444996856), np.float64(0.010263856900462845), np.float64(-0.7781226290033522), np.float64(1.7678587721028893)]Here are the ImprovementsBefore color correction matrix was optimised, we got an average delta E of 3.175439730260098 and a maximum delta E of 6.743875022395773After color correction matrix was optimised, we got an average delta E of 2.87096384854112 and a maximum delta E of 7.517375616847641
+
+Processing image: 11100K_627l.dng
+Gain with respect to standard colours: 1.533
+ 
+ Optimised Matrix Below: 
+ 
+[np.float64(1.9289989766724458), np.float64(-0.673335612575737), np.float64(-0.25566336409670876), np.float64(-0.367905169586068), np.float64(1.9066192043028094), np.float64(-0.5387140347167414), np.float64(-0.00658578213681348), np.float64(-0.7240372830979569), np.float64(1.7306230652347703)]
+ Old Color Correction Matrix Below 
+[np.float64(1.8761602362450986), np.float64(-0.6490231728150745), np.float64(-0.22713706343002416), np.float64(-0.33645215288422725), np.float64(1.8098407872230362), np.float64(-0.47338863433880896), np.float64(0.007563729212169865), np.float64(-0.7623125061319663), np.float64(1.7547487769197965)]Here are the ImprovementsBefore color correction matrix was optimised, we got an average delta E of 3.2071735620077155 and a maximum delta E of 7.0982010328466After color correction matrix was optimised, we got an average delta E of 2.986787508978896 and a maximum delta E of 7.988681829387326
+
+Processing image: 2800K_569l.dng
+Gain with respect to standard colours: 0.645
+ 
+ Optimised Matrix Below: 
+ 
+[np.float64(1.6470120063140652), np.float64(-1.0362413166642077), np.float64(0.3892293103501425), np.float64(-0.6722929722807375), np.float64(0.7760699940857706), np.float64(0.8962229781949668), np.float64(0.014935419358884974), np.float64(-1.3673130705456977), np.float64(2.3523776511868126)]
+ Old Color Correction Matrix Below 
+[np.float64(1.8608828922753822), np.float64(-0.8728483351535686), np.float64(0.01196544287818646), np.float64(-0.8763892854358927), np.float64(1.4728323365960867), np.float64(0.4035569488398061), np.float64(-0.715978552047356), np.float64(0.386691393401986), np.float64(1.32928715864537)]Here are the ImprovementsBefore color correction matrix was optimised, we got an average delta E of 24.04579765423911 and a maximum delta E of 50.59565596943399After color correction matrix was optimised, we got an average delta E of 18.292587607217786 and a maximum delta E of 49.47749807461645
+
+Processing image: 5500K_55300l.dng
+Gain with respect to standard colours: 0.711
+ 
+ Optimised Matrix Below: 
+ 
+[np.float64(1.7329094775242235), np.float64(-0.45345019863363006), np.float64(-0.27945927889059347), np.float64(-0.5583912747948633), np.float64(2.04455028146512), np.float64(-0.486159006670257), np.float64(0.00805717142675177), np.float64(-0.8036528639762959), np.float64(1.795595692549544)]
+ Old Color Correction Matrix Below 
+[np.float64(1.779203396470135), np.float64(-0.581591371172822), np.float64(-0.19761202529731303), np.float64(-0.2908396486244166), np.float64(1.33348376776931), np.float64(-0.04264411914489363), np.float64(0.011945025432362045), np.float64(-0.8573274109917868), np.float64(1.8453823855594247)]Here are the ImprovementsBefore color correction matrix was optimised, we got an average delta E of 8.134855235148821 and a maximum delta E of 24.603812430041636After color correction matrix was optimised, we got an average delta E of 5.407506793492853 and a maximum delta E of 33.430532333694664
+
+Processing image: 5500K_55301l.dng
+Gain with respect to standard colours: 1.615
+ 
+ Optimised Matrix Below: 
+ 
+[np.float64(1.946413307704704), np.float64(-0.6679374467688908), np.float64(-0.27847586093581334), np.float64(-0.5490996873887206), np.float64(2.0548977311692913), np.float64(-0.5057980437805707), np.float64(0.01658360578524671), np.float64(-0.9799240018449731), np.float64(1.9633403960597264)]
+ Old Color Correction Matrix Below 
+[np.float64(1.8772788544883658), np.float64(-0.6191320436291261), np.float64(-0.25814681085923974), np.float64(-0.5439313971803046), np.float64(1.9596169113005542), np.float64(-0.41568551412024957), np.float64(0.042889151238411076), np.float64(-1.0604596714704984), np.float64(2.0175705202320873)]Here are the ImprovementsBefore color correction matrix was optimised, we got an average delta E of 3.282842794260244 and a maximum delta E of 7.66733803835646After color correction matrix was optimised, we got an average delta E of 2.975381297271595 and a maximum delta E of 5.278277632026042
+
+Processing image: 8800K_1040l.dng
+Gain with respect to standard colours: 1.620
+ 
+ Optimised Matrix Below: 
+ 
+[np.float64(1.9442599042432323), np.float64(-0.6659127957066222), np.float64(-0.27834710853661004), np.float64(-0.41350537027139705), np.float64(1.9562834313971305), np.float64(-0.5427780611257333), np.float64(-0.004494795971684978), np.float64(-0.7350459975340654), np.float64(1.7395407935057503)]
+ Old Color Correction Matrix Below 
+[np.float64(1.8814052638020073), np.float64(-0.6404828573096419), np.float64(-0.2409224064923654), np.float64(-0.3826143687337209), np.float64(1.8478204498572537), np.float64(-0.4652060811235328), np.float64(0.008244436459140544), np.float64(-0.77424771923665), np.float64(1.7660032827775094)]Here are the ImprovementsBefore color correction matrix was optimised, we got an average delta E of 3.225547282508979 and a maximum delta E of 6.851588319501After color correction matrix was optimised, we got an average delta E of 2.989232828073566 and a maximum delta E of 7.838434308257883
+
+Processing image: 9700K_986l.dng
+Gain with respect to standard colours: 1.569
+ 
+ Optimised Matrix Below: 
+ 
+[np.float64(1.952729983482301), np.float64(-0.6890752337759336), np.float64(-0.2636547497063675), np.float64(-0.38516977240959327), np.float64(1.9275651292061422), np.float64(-0.5423953567965489), np.float64(-0.0091700864012384), np.float64(-0.7212160600432653), np.float64(1.7303861464445038)]
+ Old Color Correction Matrix Below 
+[np.float64(1.8989549907758054), np.float64(-0.6712308968795827), np.float64(-0.22772409389622272), np.float64(-0.3509075226333751), np.float64(1.8201280980438306), np.float64(-0.4692205754104555), np.float64(0.006554227911482237), np.float64(-0.7625636183408335), np.float64(1.7560093904293512)]Here are the ImprovementsBefore color correction matrix was optimised, we got an average delta E of 3.1686376175960933 and a maximum delta E of 7.218555630169267After color correction matrix was optimised, we got an average delta E of 2.9178836294369286 and a maximum delta E of 8.208711002668664
+
+Finished processing images
+Matrix calculated for colour temperature of 10000 K
+Matrix calculated for colour temperature of 10300 K
+Matrix calculated for colour temperature of 11100 K
+Matrix calculated for colour temperature of 2800 K
+Matrix calculated for colour temperature of 5500 K
+Matrix calculated for colour temperature of 8800 K
+Matrix calculated for colour temperature of 9700 K
+CCM calibration written to json file
+
+----------------------------------------------------------------------
